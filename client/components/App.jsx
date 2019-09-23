@@ -5,7 +5,7 @@ import Home from './Home'
 const App = () => {
     return (
         <Router>
-            <Route path='/' component={Home} />
+            <Route exact path='/home' component={Home} />
         </Router>
     )
 }
